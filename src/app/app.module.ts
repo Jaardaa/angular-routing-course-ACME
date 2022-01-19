@@ -25,7 +25,6 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     HttpClientModule,
     InMemoryWebApiModule.forRoot(ProductData, { delay: 1000 }),
-
     ProductModule,
     UserModule,
     MessageModule,
