@@ -31,6 +31,7 @@ export class ProductDetailComponent implements OnInit {
       this.pageTitle = `Product Detail: ${this.product.productName}`;
     } else {
       this.pageTitle = "No product found";
+      
     }
   }
 }
